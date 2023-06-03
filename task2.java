@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 
 public class task2 {
     public static void main(String[] args) {
-        List<String> workers = List.of("Иван", "Пётр", "Пётр", "Антон", "Антон", "Иван", "Пётр", "Иван", "Пётр", "Иван",
-                "Пётр", "Иван", "Пётр", "Антон", "Антон");
+        List<String> workers = List.of("Иван", "Пётр", "Даниил", "Антон", "Антон", "Иван", "Пётр", "Иван", "Пётр", "Ира",
+                "Пётр", "Иван", "Пётр", "Антон", "Игорь");
         System.out.println(repeat(workers));
     }
 
